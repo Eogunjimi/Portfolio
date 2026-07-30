@@ -1,11 +1,11 @@
 import { Link } from "react-router-dom";
 import ArrowIcon from "./ArrowIcon";
 
-const socials = [
-  { label: "Email", href: "mailto:ayodejiatanda1@gmail.com" },
-  { label: "GitHub", href: "https://github.com/dejixice" },
-  { label: "LinkedIn", href: "https://linkedin.com/in/ayodejiatanda" },
-  { label: "X — @DEJIxICE", href: "https://x.com/dejixice" },
+const social = [
+  { label: "Email", href: "mailto:eogunjimi82@gmail.com" },
+  { label: "GitHub", href: "https://github.com/Eogunjimi" },
+  { label: "LinkedIn", href: "https://ng.linkedin.com/in/emmanuel-ogunjimi-414601132" },
+  { label: "X — @JIMI_DEVV", href: "https://x.com/jimi_devv" },
 ];
 
 export default function Footer() {
@@ -34,7 +34,7 @@ export default function Footer() {
 
         <div className="mt-8 flex flex-col gap-6 border-t border-cream/15 pt-8 sm:flex-row sm:items-center sm:justify-between">
           <div className="flex flex-wrap gap-x-8 gap-y-3">
-            {socials.map((s) => (
+            {social.map((s) => (
               <a
                 key={s.label}
                 href={s.href}

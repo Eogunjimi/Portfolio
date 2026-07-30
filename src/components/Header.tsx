@@ -25,7 +25,7 @@ export default function Header() {
           className="font-mono text-[12px] font-medium tracking-[0.12em] text-ink uppercase"
           onClick={() => setMenuOpen(false)}
         >
-          Ayodeji Atanda
+          Folusho Jimi
         </Link>
 
         <nav className="hidden items-center gap-8 md:flex">

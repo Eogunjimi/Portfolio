@@ -2,9 +2,9 @@ import { motion } from "framer-motion";
 import ArrowIcon from "../components/ArrowIcon";
 
 const socials = [
-  { label: "GitHub", href: "https://github.com/dejixice" },
-  { label: "LinkedIn", href: "https://linkedin.com/in/ayodejiatanda" },
-  { label: "X — @DEJIxICE", href: "https://x.com/dejixice" },
+  { label: "GitHub", href: "https://github.com/Eogunjimi" },
+   { label: "LinkedIn", href: "https://ng.linkedin.com/in/emmanuel-ogunjimi-414601132" },
+  { label: "X — @JIMI_DEVV", href: "https://x.com/jimi_devv" },
 ];
 
 export default function Contact() {
@@ -20,18 +20,18 @@ export default function Contact() {
       </motion.p>
 
       <motion.a
-        href="mailto:ayodejiatanda1@gmail.com"
+        href="mailto:eogunjimi82@gmail.com"
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.65, delay: 0.05 }}
         className="group mt-10 flex flex-wrap items-center gap-4 text-[9vw] leading-[1] font-bold tracking-tight text-ink break-all sm:text-6xl md:text-7xl lg:text-8xl"
       >
-        <span>ayodejiatanda1@gmail.com</span>
+        <span>eogunjimi82@gmail.com</span>
         <ArrowIcon className="h-[7vw] w-[7vw] shrink-0 transition-transform duration-300 group-hover:translate-x-1 group-hover:-translate-y-1 sm:h-10 sm:w-10 md:h-14 md:w-14" />
       </motion.a>
 
       <motion.a
-        href="/Ayodeji-Atanda-CV.pdf"
+        href="/folusho-jimi-CV.pdf"
         download
         initial={{ opacity: 0, y: 14 }}
         animate={{ opacity: 1, y: 0 }}
