@@ -21,7 +21,7 @@ export default function About() {
           transition={{ duration: 0.6, delay: 0.05 }}
           className="mt-6 max-w-3xl text-[9vw] leading-[1.05] font-bold tracking-tight text-ink sm:text-5xl md:text-6xl"
         >
-          I'm Ayodeji, a frontend engineer who treats the browser as a craft.
+          I'm Folusho Jimi, a frontend engineer who treats the browser as a craft.
         </motion.h1>
 
         <motion.div
@@ -33,13 +33,13 @@ export default function About() {
           <div className="max-w-[220px]">
             <div className="aspect-4/5 w-full overflow-hidden bg-cream-dark grayscale">
               <img
-                src="/images/profile.jpg"
-                alt="Ayodeji Atanda"
+                src="/images/Folusho_bw.jpg"
+                alt="Folusho Jimi"
                 className="h-full w-full object-cover"
               />
             </div>
             <p className="mt-3 font-mono text-[10px] tracking-[0.14em] text-muted uppercase">
-              Ayodeji Atanda — Lagos, NG
+              Folusho Jimi — Lagos, NG
             </p>
           </div>
 
