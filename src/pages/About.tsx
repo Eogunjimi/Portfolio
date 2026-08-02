@@ -21,7 +21,7 @@ export default function About() {
           transition={{ duration: 0.6, delay: 0.05 }}
           className="mt-6 max-w-3xl text-[9vw] leading-[1.05] font-bold tracking-tight text-ink sm:text-5xl md:text-6xl"
         >
-          I'm Folusho Jimi, a frontend engineer who treats the browser as a craft.
+          I’m Folusho Jimi, a frontend engineer who turns ideas into polished browser experiences.
         </motion.h1>
 
         <motion.div
@@ -45,21 +45,21 @@ export default function About() {
 
           <div className="max-w-2xl space-y-6 text-base leading-relaxed text-ink-soft md:text-lg">
             <p>
-              For the last four years I've built interfaces for fintech dashboards,
-              DeFi trading platforms, and AI products, the kind of work where a
-              dropped frame or a missed focus state is a real cost, not a nitpick.
-              Right now I'm at Gen Financial, and open to new opportunities.
+              For the last 2 years, I've built frontend experiences for financial products,
+               where clarity, speed, and trust shape every screen. At Pedmonie, 
+               I worked with a team to turn complex money movement into interfaces that feel simple, 
+               reliable, and calm.
             </p>
             <p>
-              I care about the measurable side of frontend: the 35% faster loads,
-              the 25+ components a team actually reuses, the 200+ people using a
-              dashboard daily without thinking about it. Good interface work should
-              disappear into the task.
+              I also contribute to open source, including Wikipedia and Firefox,
+               because the web works best when people leave it stronger than they found it. 
+               I care about accessible patterns, clean components, 
+               and details that make everyday tasks feel effortless
             </p>
             <p>
-              Away from the keyboard I'm usually in water or in headphones.
-              Swimming resets my body, music resets my head. Both taught me the
-              same thing: rhythm matters more than force.
+              When I step away from a screen, I look for fresh perspective in music, movement, 
+              and unexpected ideas.They remind me that thoughtful work is rarely loud;
+              it simply makes the next moment feel easier.
             </p>
           </div>
         </motion.div>

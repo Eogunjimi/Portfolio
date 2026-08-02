@@ -10,7 +10,7 @@ export default function ProjectDetail() {
   const next = getNextProject(slug);
 
   useEffect(() => {
-    if (project) document.title = `${project.name} — Ayodeji Atanda`;
+    if (project) document.title = `${project.name} — Folusho Jimi`;
   }, [project]);
 
   if (!project) return <Navigate to="/work" replace />;

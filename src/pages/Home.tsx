@@ -59,10 +59,10 @@ export default function Home() {
           className="mt-10 flex flex-col gap-10 border-t border-line/80 pt-8 md:flex-row md:items-end md:justify-between"
         >
           <p className="max-w-xl text-base leading-relaxed text-ink-soft md:text-lg">
-            For the last four years I've built interfaces for fintech dashboards,
-            DeFi trading platforms, and AI products — the kind of work where a
-            dropped frame or a missed focus state is a real cost, not a nitpick.
-            Right now I'm at Gen Financial, and open to new opportunities.
+          For the past two years, I’ve been building thoughtful frontend experiences across
+          fintech, AI, SaaS, and open source—from Pedmonie’s dashboards and landing page 
+          to interactive tools for Wikipedia. I’m currently working with freelance clients 
+          and open to new opportunities.
           </p>
 
           <div className="flex shrink-0 items-center gap-4">
