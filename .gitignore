@@ -1,2 +1,26 @@
-:node_modules
-:dist
+# Build output and dependencies
+node_modules/
+dist/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+.idea/
+*.swp
+
+# Google Indexing API service account key — never commit
+.google-indexing-key.json
+
+# Claude Code local overrides
+.claude/settings.local.json
+
+# SEO-AEO progress files (project-specific, not toolkit files)
+SEO-AEO-PROGRESS.md
+MIGRATION-URL-INVENTORY.md
+MIGRATION-RANKINGS-SNAPSHOT.md
+MIGRATION-REDIRECT-MAP.md
